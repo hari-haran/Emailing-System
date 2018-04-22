@@ -1,0 +1,10 @@
+{
+    "application": {
+      "port": 1350
+    },
+    "mongodb": {
+      "hosts": "127.0.0.1",
+      "database": "Email_Manager",
+      "w": 0
+    }
+  }

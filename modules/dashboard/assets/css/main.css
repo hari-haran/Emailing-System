@@ -1,0 +1,107 @@
+html {
+	font-size: 12px;
+  }  
+  .general-page {
+	padding: 100px 0;
+  }
+  
+  .login-form {
+	margin: 0 auto;
+	width: 400px;
+  }
+  
+  .search-form {
+	width: 200px;
+  }
+  
+  .dashboard-panel h4 {
+	margin-top: 7px;
+	margin-bottom: 7px;
+	margin-right: 1em;
+  }
+  
+  .dashboard-table .actions {
+	width: 200px;
+  }
+  
+  .dashboard-pills ul {
+	padding-left: 2em;
+  }
+  
+  .dashboard-model-form .thumbnail {
+	text-align: center;
+  }
+  
+  .navbar-nav .username-dropdown>a {
+	padding-top: 6px;
+	padding-bottom: 6px;
+  }
+  
+  .username-dropdown .username-image {
+	height: 36px;
+	border: 1px solid #fff;
+	margin-right: 1em;
+  }
+  
+  .dashboard-sidebar {
+	position: fixed;
+	left: 0;
+	top: 50px;
+	width: 200px;
+	bottom: 0;
+	background: #f7f7f7;
+	border-right: 1px solid #ddd;
+  }
+  
+  .dashboard-sidebar .list-group-item {
+	border-right: 0;
+	-webkit-border-radius: 0!important;
+	-moz-border-radius: 0!important;
+	-ms-border-radius: 0!important;
+	-o-border-radius: 0!important;
+	border-radius: 0!important;
+  }
+  
+  .main-dashboard-page {
+	padding: 80px 40px 40px 240px;
+  }
+  
+  html {
+	height: 100%;
+  }
+  
+  body {
+	min-height: 100%;
+  }
+  
+  .dashboard-table .actions a {
+	float: left;
+	margin-right: 1em;
+  }
+  
+  .dashboard-panel .bg-info {
+	position: relative;
+  }
+  
+  .dashboard-panel .bg-info form button {
+	display: inline-block;
+	float: right;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+  }
+  
+  .file-window .modal-dialog {
+	width: 80%;
+  }
+  
+  span.permission_tag {
+	  /* margin-right: 10px; */
+	border-right: 1px solid;
+	padding-right: 5px;
+	padding-left: 5px;
+  }
+  
+  span.permission_tag:last-child {
+	border: none;
+  }

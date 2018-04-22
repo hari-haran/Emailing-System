@@ -1,0 +1,33 @@
+extends ../../layouts/dashboard
+
+block content
+	if success && success.length
+		p.alert.alert-success.alert-dismissable
+			button.close( type="button" data-dismiss="alert" aria-hidden="true" ) &times;
+			|#{success}
+
+	section.dashboard-panel.panel.panel-default
+		.panel-heading
+			h4.pull-left Email List 
+
+			.clearfix
+
+	table.table.table-striped.table-hover.dashboard-table
+		thead
+			tr
+				th Type
+				th Email Address
+				th First Name
+				th Sent Date
+				th Status
+				th Error
+		tbody
+			if emailList
+				each list in emailList
+					tr 
+						td #{list.emailType}
+						td #{list.user.email}
+						td #{list.user.firstName}
+						td #{list.sentDate}
+						td #{list.status}
+						td #{JSON.stringify(list.err)}

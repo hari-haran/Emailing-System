@@ -1,0 +1,33 @@
+extends default
+
+block main
+	header
+		nav.navbar.navbar-inverse.navbar-fixed-top( role="navigation" )
+			.container-fluid
+				.navbar-header
+					a.navbar-brand( href="#" ) 
+						|Dashboard
+				.collapse.navbar-collapse
+					ul.nav.navbar-nav.navbar-right
+						li.dropdown.username-dropdown
+							a.dropdown-toggle( href="#" data-toggle="dropdown" )
+								img.username-image( src="" alt="Username" )
+							ul.dropdown-menu
+								li
+									a( href="#" )
+										i.glyphicon.glyphicon-user
+										|&nbsp;My Profile
+								li
+									a( href="/dashboard/logout" )
+										i.glyphicon.glyphicon-off
+										|&nbsp;Log Out
+
+	aside.dashboard-sidebar
+		ul.list-group
+			li
+				a.list-group-item( href="/dashboard/" )
+					i.glyphicon.glyphicon-user
+					|&nbsp;Email Dashboard
+	
+	section.main-dashboard-page
+		block content
